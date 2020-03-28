@@ -1,7 +1,7 @@
 # Oracle Apex Sales Dashboard
 Steven Wright
 
-Oracle Apex
+Oracle Apex 19.2
 
 Python 3.7.3
 
