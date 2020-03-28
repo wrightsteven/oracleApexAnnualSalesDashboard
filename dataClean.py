@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/steven/Desktop/annual_data_2019_copy.csv")
+df = pd.read_csv("filepath")
 
 #Drop null values
 df = df[df['Order Date'].str[0:2] != 'Or']
@@ -33,4 +33,4 @@ df['Count'] = 1
 
 
 
-df.to_csv("/Users/steven/Desktop/annual_data_2019_clean.csv")
+df.to_csv("path")
